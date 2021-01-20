@@ -1,0 +1,80 @@
+body{
+    background-color: #232323;
+    color: rgb(212, 199, 199);
+    text-align: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#ul{
+    display: flex;
+    float: right;
+}
+
+li{
+    list-style-type: none;
+    padding: 5%;
+}
+
+#Hosanna{
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.nav{
+    color: rgb(212, 199, 199);
+}
+
+li a:hover{
+    color: hsl(0, 33%, 2%);
+  }
+
+#hello{
+    font-size: 140%;
+    font-weight: 300;
+}
+#me{
+    font-size: 120%;
+}
+
+/* #hire{
+    padding: 1%;
+    border-radius: 25%;
+    background-color: burlywood;
+    font-size: 100%;
+    margin-top: 20px;
+} */
+
+#portfolio{
+    align-content: center;
+}
+.port{
+    display: flex;
+    margin-left: 20%;
+}
+
+img{
+    max-width: 35%;
+}
+
+#contact{
+    margin-top: 10%;
+   word-spacing: 1%;
+}
+
+input{
+    width: 500px;
+    padding: 1vh;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+#message{
+    padding-bottom: 6vh;
+}
+
+a{
+    font-size: 120%;
+}
